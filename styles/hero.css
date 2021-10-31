@@ -1,0 +1,6 @@
+.hero {
+  background: var(--color__primary);
+  color: var(--color__white);
+  padding-top: clamp(5rem, 5vw, 10rem);
+  width: 100%;
+}

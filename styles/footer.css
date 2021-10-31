@@ -1,0 +1,41 @@
+footer {
+  background:var(--color__black);
+  color: var(--color__white);
+  display: grid;
+  font-size: 1.4rem;
+  gap: var(--element-gap);
+  grid-row: 2 / 3;
+  grid: auto-flow / repeat(auto-fit, minmax(25rem, 1fr));
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+footer > * + * {
+  margin-top: 0;
+}
+
+footer h2 {
+  font-size: 3rem;
+}
+
+footer h3 {
+  font-size: 1.6rem;
+}
+
+footer a {
+  color: currentColor;
+}
+
+.columns {
+  display: grid;
+  gap: 2rem;
+  grid: auto-flow / repeat(auto-fill, minmax(25rem, 1fr));
+}
+
+.columns > * + * {
+  margin-top: 0;
+}
+
+.legal {
+  color: var(--color__gray);
+}
